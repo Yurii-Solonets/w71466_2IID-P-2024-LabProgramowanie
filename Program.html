@@ -1,11 +1,70 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pierwsza strona na HTML</title>
+    <link rel = "stylesheet" type = "text/css" href = "format.css">
 </head>
 <body>
+    <header>
+        <h1 style="color: blue;"><center>Yurii Solonets</center></h1>
+    </header>
+    <main>
+        <p style="color: green;">Jestem studentem WSIiZ i studiuję na kierunku Informatyka.</p>
+        <a href="https://wsiz.edu.pl/?gad_source=1&gclid=Cj0KCQjw1um-BhDtARIsABjU5x7wJiq0fyo4AycAoLqOSnTkfpyGO1EDdriv27ncFCtgxbD5yPYh5X0aAvynEALw_wcB" style ="color: red">WSIiZ</a>
+        
+        <h2>Lista zakupów</h2>
+        <ul>
+            <li>Mleko</li>
+            <li>Chleb</li>
+            <li>Woda</li>
+        </ul>
+        <img src = "https://wsiz.edu.pl/wp-content/uploads/2022/03/spacer-wirtualny.jpg" alt = "Kielnarowa">
+    
+        <h2> Tabela z danymi </h2>
+        <table>
+            <tr>
+                <th>Nazwa</th>
+                <th>Data</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>Michał</td>
+                <td>18.03.2025</td>
+                <td>student</td>
+            </tr>
+            <tr>
+                <td>Anna</td>
+                <td>17.03.2025</td>
+                <td>pracownica</td>
+            </tr>
+            <tr>
+                <td>Yurii</td>
+                <td>16.03.2025</td>
+                <td>student</td>
+            </tr>
+        </table>
+
+        <form>
+            <label>Imię:</label>
+            <input type = "text" id ="name" name = "name" required>
+
+            <br><br>
+
+            <input type = "checkbox" id="newletter" name ="newletter">
+            <label for = "newletter">Zgadzam się</label>
+
+            <br><br>
+
+            <button type="submit">Wyślij</button.></button>
+        </form>
+
+
+    </main>
+
+
     
 </body>
-</html>
+</html> 
