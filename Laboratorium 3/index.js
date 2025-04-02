@@ -34,11 +34,6 @@
 //     }
 // }
 
-//Zadanie 1
-function zmienTekst(){
-    alert ("Witaj na stronie");
-}
-
 // const test = 1;
 // console.log("Test " + test + " Test2");
 // console.log(`Tekst ${test} test2`);
@@ -47,15 +42,20 @@ function zmienTekst(){
 // console.log(liczba + liczba);
 // console.log(+liczba + +liczba);
 
+//Zadanie 1
+function zmienTekst(){
+    alert ("Witaj na stronie");
+}
+
 //Zadanie 2
 for(let i = 0; i<100; i+= 2){
     console.log(i)
 }
 
 //Zadanie 3 
-// const a = +prompt("Podaj a:");
-// const b = +prompt("Podaj b:");
-// alert(a + b);
+const a = +prompt("Podaj a:");
+const b = +prompt("Podaj b:");
+alert(a + b);
 
 //Zadanie 4
 
