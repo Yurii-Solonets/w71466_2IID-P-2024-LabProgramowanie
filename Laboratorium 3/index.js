@@ -58,7 +58,6 @@ const b = +prompt("Podaj b:");
 alert(a + b);
 
 //Zadanie 4
-
 const clock = document.getElementById("clock");
 setInterval(() => {
     const date = new Date();
