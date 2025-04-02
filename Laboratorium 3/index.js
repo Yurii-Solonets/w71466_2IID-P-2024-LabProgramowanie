@@ -76,7 +76,7 @@ function tryGuess(){
     trys++;
     const value = +quessNumber.value;
     if (value == number){
-        alert(`Zgadłeś za $(trys)`);
+        alert(`Zgadłeś za ${trys}`);
     }
     else if(value > number){
         alert("Liczba jest mniejsza")
