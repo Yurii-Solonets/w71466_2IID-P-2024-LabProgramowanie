@@ -16,21 +16,21 @@ showHidePassword.addEventListener("change", () =>{
 })
 
 
-//Zadanie
+//Zadanie 4
 const hobbiesList = document.querySelector('ul');
 function hobbies(){
-    hobbiesList.replaceChild()
+    hobbiesList.replaceChildren()
     const selectedHobbies = document.querySelectorAll('input[name = "hobbies"]:checked')
 
     selectedHobbies.forEach(hobby => {
         const item = document.createElement('li')
         item.textContent = hobby.value;
-        hobbiesList = appendChild(item)
+        hobbiesList.appendChild(item)
     })
 }
 
 form.addEventListener("submit", event => {
-    event.preventDefaul();
+    event.preventDefault();
 
     hobbies();
 })
