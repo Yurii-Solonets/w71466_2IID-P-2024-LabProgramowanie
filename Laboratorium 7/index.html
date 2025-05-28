@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label> Witaj <span id = "nameDisplay"></span></label>
+    <form>
+        <label for = "name">Imię</label>
+        <input type = "text" for = "name" id = "name"/>
+        <br/>
+        <label for = "surname">Nazwisko </label>
+        <input type = "text" for = "surname" id = "surname"/>
+        <br/>
+        <label for = "email">Email</label>
+        <input type = "email" for = "email" id = "email"/>
+        <br>
+        <label for = "password">Hasło</label>
+        <input type = "password" for = "password" id = "password"/>
+        <label for = "showHidePassword">Pokaż/Ukryj</label>
+        <input type = "checkbox" name = "showHidePassword" id = "showHidePassword">
+        <br/>
+        <label for = "gender">Płec</label>
+        <label for = "genderM">M</label>
+        <input type="radio" name = "gender" value = "M" id = "genderM"/>
+        <label for = "genderW">W</label>
+        <input type="radio" name = "gender" value = "W  " id = "genderW"/>
+        <br/>
+        <div id = "phone-container">
+            <label for = "phone">Telefon</label>
+            <input type = "tel" name = "phone" id = "phone"/>
+        </div>
+        <label for = "showHidePhone">Pokaż/Ukryj</label>
+        <input type = "checkbox" name = "showHidePhone" id = "showHidePhone">
+        <br/>
+        <label for = "birthDate">Data urodzenia</label>
+        <input type = "date" name = "birthDate" id = "birthDate"/>
+        <br/>
+        <label for = "country">Kraj</label>
+        <select name ="country" id = "country">
+            <option value="Pl">Polska</option>
+            <option value = "Ua">Ukraina</option>
+            <option value = "Uk">Wilka Brytania</option>
+        </select> 
+        <br/>
+        <br/>
+        <label>Hobby:</label>
+        <br/>
+        <label for = "Motoryzacja">Motoryzacja</label>
+        <input type = "checkbox" name = "hobbies" id = "Motoryzacja" value="Motoryzacja"/><br/>
+        <label for = "Skoki">Skoki</label>
+        <input type = "checkbox" name = "hobbies" id = "Skoki" value="Skoki"/><br/>
+        <label for = "Gry">Gry komputerowy</label>
+        <input type = "checkbox" name = "hobbies" id = "Gry" value="Gry"/><br/>
+        <label for = "Film">Filmy</label>
+        <input type = "checkbox" name = "hobbies" id = "Film" value="Film"/><br/>
+        <br>
+        
+        
+        <input type = "submit" value="Zapisz"/>
+    </form>
+    
+    <label>Wybrane hobbi</label>
+    <ul></ul>
+
+    <script src = "script.js"></script>
+</body>
+</html> 
