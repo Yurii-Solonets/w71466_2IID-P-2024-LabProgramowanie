@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+
+    <h1>Informacje o samochodzie</h1>
+    
+    <p id="info"></p>
+    <button onclick="samochod.zwiekszPredkosc(10)">Zwiększ prędkość o 10</button>
+    <button onclick ="samochod.zmniejszPredkosc(10)">Zmniejsz prędkość o 10</button>
+    <br/>
+    <form>
+        <label> Witaj <span id = "nameDisplay"></span></label><br>
+        <label for ="name">Imię: </label>
+        <input type = "text" for = "name", id = "name"/><br>
+        <span id = "nameError" class = "error"></span>
+    </form>
+
+
+    <label>Nazwisko:</label>
+    <input type = "text" for = "surname", id = "surname"/> 
+
+    <script  src="script.js"></script>
+</body>
+</html>
